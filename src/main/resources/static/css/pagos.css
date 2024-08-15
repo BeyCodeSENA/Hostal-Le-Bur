@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.473)),url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+}
+h3{
+    color: white;
+}
+a{
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid white ;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.imagen{
+    width: 50px;
+    height: 50px;
+}
+
+.salir{
+    color: white;
+    font-size: 20px;
+}
